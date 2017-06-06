@@ -1,0 +1,302 @@
+/*
+heading two tag.
+*/
+h2{
+	text-align: center;
+	color: #ff0000;
+}
+/*
+heading one tag.
+*/
+h1 {
+	text-align: center;
+}
+/*
+heading three tag.
+*/
+h3 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+/*
+Body tag.
+*/
+body{
+	background-image: url(../images/pagebg.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+/*
+heading three tag.
+*/
+h3 {
+	text-align: center;
+	font-family: arial;
+	font-size: 30px;
+}
+
+/*
+Paragraph tag.
+*/
+p {
+	text-align: center;
+	font-family: Arial;
+}
+
+/*
+Image
+*/
+.tweets{
+	float: right;
+}
+li {
+	list-style-type: none;
+}
+/*
+Image
+*/
+.appli {
+	float: left;
+}
+
+/*
+Image description
+*/
+.sou {
+	display: inline-block;
+}
+
+/*
+Image description
+*/
+.cal {
+	display: inline-block;
+}
+
+/*
+Display of each description being used in the code.
+*/
+figcaption {
+	display: block;
+}
+
+/*
+Links
+*/
+a {
+	color: black;
+	font-size: 1.25em;
+}
+/*
+hover effect on links
+*/
+a:hover {
+	color: #ff0000;
+}
+/*
+Styles on links
+*/
+a:link {
+	text-decoration: none;
+}
+/* 
+visited link 
+*/
+a:visisted {
+	color: red;
+}
+/* 
+unvisited link 
+*/
+a:unvisited {
+	color: #fff;
+}
+/* 
+active link 
+*/
+a:active {
+	color: yellow;
+}
+/*
+Scroll up button
+*/
+#suBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  border: none;
+  outline: none;
+  background-color: blue;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 10px;
+}
+/*
+Scroll up button with a hover effect.
+*/
+#suBtn:hover {
+	background-color: red;
+}
+
+/*
+Image
+*/
+.appl2{
+	float: right;
+}
+
+/*
+Location of embedded google maps
+*/
+iframe{
+	float: right;
+}
+/*
+Comment box
+*/
+textarea{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*
+Submit button
+*/
+.sub{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+Error.
+*/
+.error{
+	color: red;
+}
+/*
+text box size.
+*/
+input[text] {
+  margin-left: 0px;
+  width: 300px;
+  height: 20px;
+}
+
+/*
+Text box size of biscuit.
+*/
+.biscuit[text] {
+	  margin-left: 0px;
+	  width:300px;
+	  height:35px;
+}
+
+/*
+Paragraph alignment.
+*/
+.cen{
+	text-align: center;
+}
+/*
+image
+*/
+.ap{
+	float: right;
+}
+/*
+image
+*/
+.stamp{
+	float: left;
+}
+/*
+header
+*/
+.comment {
+	text-align: left;
+	font-size: 26px;
+}
+/*
+footer
+*/
+footer {
+	text-align: center;
+}
+/*
+box model
+*/
+.all {
+	margin: 10px;
+	padding: 10px;
+	border:	10px;
+	width: 1850px;
+	float: left;
+}
+/*
+box model for the logo
+*/
+.logo {
+	margin: 10px;
+	padding: 1px;
+	border:	1px;
+	width: 340px;
+	float: left;
+}
+/*
+box model for the left side.
+*/
+.advertisers {
+	margin: 10px;
+	padding: 5px;
+	border:	1px;
+	width: 330px;
+	float: left;
+}
+/*
+box model for the slideshow.
+*/
+.slideshow {
+	margin: 10px;
+	padding: 8px;
+	border:	1px;
+	width: 800px;
+	float: left;
+}
+/*
+space of the links
+*/
+.tab {
+	clear: both;
+}
+/*
+text of the links.
+*/
+.links {
+	text-align: center;
+}
+/*
+text of the paragraphs
+*/
+.para {
+	width: 650px;
+	float: right;
+}
+/*
+JS Time
+*/
+#time {
+	text-align: center;
+}
+/*
+JS Date
+*/
+#date {
+		text-align: center;
+}
